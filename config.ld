@@ -1,0 +1,5 @@
+project = 'Theme utils'
+description = 'A module of theme-related utilities for TextAdept'
+file = 'init.lua'
+dir = 'docs'
+format = 'markdown'
