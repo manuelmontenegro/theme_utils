@@ -24,9 +24,9 @@ if not CURSES then
   theme_utils.set_primary_theme('dracula')
   theme_utils.set_alternate_theme('base16-equilibrium-light')
   -- [Optional] Assign keyboard shortcuts to functions
-  keys['ctrl+t'] = theme_utils.toggle_theme	     -- Toggle between primary/alternate
+  keys['ctrl+t'] = theme_utils.toggle_theme      -- Toggle between primary/alternate
   keys['ctrl+l'] = theme_utils.select_theme      -- Select a theme from a list
-  keys['f4'] = theme_utils.next_theme		     -- Cycle between themes (next)
+  keys['f4'] = theme_utils.next_theme            -- Cycle between themes (next)
   keys['shift+f4'] = theme_utils.previous_theme  -- Cycle between themes (previous)
 end
 ```
@@ -43,4 +43,4 @@ See the [LDoc documentation](https://manuelmontenegro.github.io/theme_utils/) fo
 
 ## License
 
-See `LICENSE.md` for more details.
+See `LICENSE` for more details.
