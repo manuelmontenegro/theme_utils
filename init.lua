@@ -67,6 +67,7 @@ local function refresh_theme()
   local env_overrides = {}
   if buffer.current_theme == primary_theme.name or buffer.current_theme == nil then    
     env_overrides = primary_theme.env
+    buffer.current_theme = primary_theme.name
   elseif buffer.current_theme == alternate_theme.name then
     env_overrides = alternate_theme.env
   end
